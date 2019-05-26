@@ -1,0 +1,39 @@
+#projects {
+    min-height: 110vh;
+    font-family: map-get($font, main-font);
+    color: map-get($color, main-text);
+    padding: 50px;
+   }
+#projects h1 {
+    font-size: 3em;
+    text-align: center;
+    }
+#pro-photo {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    // overflow: hidden;
+    justify-content: space-around;
+   
+    img {
+        width: 500px;
+        height: 300px;
+    }
+}
+#description-pro {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 400px) {
+    #pro-photo {  
+        width: 300px;
+        height: 200px;
+        
+    }
+}
+ 

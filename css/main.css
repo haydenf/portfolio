@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro|Amatic+SC|El+Messiri|Josefin+Slab|Julius+Sans+One|Lobster+Two|Nanum+Myeongjo|Pragati+Narrow&display=swap");
+#frontpage {
+  min-height: 100vh;
+  background-image: url(/Images/beautiful-cold-dawn-547115.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 100%;
+  height: auto;
+}
+
+#titletext {
+  font-family: "Julius Sans One";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 600px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3E3D53;
+  font-size: 2vw;
+  vertical-align: middle;
+}
+
+header {
+  background-color: #2c2626;
+  min-height: 30px;
+  position: fixed;
+  width: 100%;
+  opacity: 0.5;
+}
+
+#social-media-buttons {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#social-media-buttons #twitter {
+  height: 50px;
+}
+
+#social-media-buttons #linkedin {
+  height: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+  #titletext {
+    font-size: 3.5vw;
+  }
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style-type: none;
+  background-color: black;
+  padding: 0;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bolder;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+nav ul a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-left: 1px solid #bbb;
+}
+
+nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+}
+
+#logobox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #272629;
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 110vh;
+  color: #E66F85;
+  list-style-type: none;
+}
+
+#about h1 {
+  font-family: "Julius Sans One";
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+#about h2 {
+  font-family: "Julius Sans One";
+  font-size: 2em;
+  padding: 30px;
+}
+
+#about ul {
+  list-style-type: none;
+}
+
+#about p {
+  font-family: "Nanum Myeongjo";
+  font-size: 1em;
+}
+
+#about li {
+  font-family: "Nanum Myeongjo";
+  font-size: 1em;
+}
+
+#about #abouttitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3em;
+}
+
+#aboutcontainer {
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 30%;
+}
+
+#skillscontainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+#skillscontainer h2 {
+  text-align: center;
+}
+
+#skillscontainer ul {
+  text-align: center;
+}
+
+#rowcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 15px;
+}
+
+.imageslideshow {
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imageslideshow img {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  max-height: auto;
+}
+
+#imageskills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#mytatto {
+  width: 800px;
+  height: 800px;
+}
+
+@media only screen and (max-width: 400px) {
+  .imageskills {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .imageslideshow {
+    max-height: 350px;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .aboutcontainer {
+    padding: 10px 10px 5px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #mytatto {
+    overflow: hidden;
+    max-height: 350px;
+  }
+}
+
+#projects {
+  min-height: 110vh;
+  font-family: "Julius Sans One";
+  color: #E66F85;
+  padding: 50px;
+}
+
+#projects h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+#pro-photo {
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#pro-photo img {
+  width: 500px;
+  height: 300px;
+}
+
+#description-pro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  #pro-photo {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+#contact {
+  min-height: 80vh;
+  padding: 250px;
+  font-family: "Julius Sans One";
+  color: #E66F85;
+}
+
+#my-info {
+  font-size: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+#media-buttons {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+#media-buttons #twitter {
+  height: 200px;
+  background-color: #E66F85;
+  border-radius: 12px;
+}
+
+#media-buttons #linkedin {
+  height: 200px;
+  background-color: #E66F85;
+  border-radius: 15px;
+}
+
+#media-buttons #facebook {
+  height: 200px;
+  background-color: #E66F85;
+  border-radius: 39px;
+}
+
+#media-buttons #git {
+  border-radius: 10px;
+  background-color: #E66F85;
+  height: 200px;
+}
+
+@media only screen and (max-width: 400px) {
+  #media-buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 50px;
+    width: auto;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #3E3D53;
+}
+/*# sourceMappingURL=main.css.map */

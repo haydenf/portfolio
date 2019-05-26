@@ -1,0 +1,61 @@
+#contact{
+    min-height: 80vh;
+    padding: 250px;
+    font-family: map-get($font, main-font);
+    color: map-get($color, main-text);
+    
+   }
+   #my-info {
+       font-size: 2em;
+       display:flex;
+       flex-direction:column;
+       align-items: center;
+       padding: 30px;
+
+   }
+
+
+
+   #media-buttons{
+    padding: 30px;
+    // border: 1px solid red;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    width: 100%;
+    
+
+    #twitter  {
+        height: 200px;
+        background-color:#E66F85;
+        border-radius:12px;
+    }
+    #linkedin {
+        height: 200px;
+        background-color:#E66F85;
+        border-radius:15px;
+    }
+    #facebook {
+        height: 200px;
+        background-color:#E66F85;
+        border-radius:39px;
+    }
+    #git{
+        border-radius:10px;
+        background-color:#E66F85;
+        height: 200px;
+
+    }
+        
+   
+}
+@media only screen and (max-width: 400px) {
+    #media-buttons {  
+        justify-content: center;
+        height: 50px;
+        width: auto;
+        
+    }
+}
+ 
