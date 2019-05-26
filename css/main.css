@@ -343,6 +343,7 @@ nav li a:hover {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-top: 10px;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 400px) {
@@ -416,12 +417,57 @@ nav li a:hover {
 }
 
 @media only screen and (max-width: 400px) {
-  #media-buttons {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  #my-info h1, #my-info h2 {
+    padding-right: 200px !important;
+    font-size: 5vw;
+  }
+  #my-info #buttons {
     height: 50px;
-    width: auto;
+    width: 50px;
+    padding-right: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #facebook {
+    height: 50px;
+    width: 50px;
+    background-color: #3E3D53 !important;
+    border-radius: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #git {
+    height: 50px;
+    width: 50px;
+    background-color: #3E3D53 !important;
+    border-radius: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #linkedin {
+    height: 50px;
+    width: 50px;
+    background-color: #3E3D53 !important;
+    border-radius: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #twitter {
+    height: 50px;
+    width: 50px;
+    background-color: #3E3D53 !important;
+    border-radius: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #my-info {
+    font-size: 4.5vw;
+    padding-right: 150px;
   }
 }
 

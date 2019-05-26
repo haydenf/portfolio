@@ -15,7 +15,6 @@
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    // overflow: hidden;
     justify-content: space-around;
    
     img {
@@ -28,6 +27,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding-top: 10px;
+    overflow: hidden;
 }
 @media only screen and (max-width: 400px) {
     #pro-photo {  

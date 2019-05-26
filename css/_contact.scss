@@ -11,6 +11,7 @@
        flex-direction:column;
        align-items: center;
        padding: 30px;
+    
 
    }
 
@@ -18,12 +19,12 @@
 
    #media-buttons{
     padding: 30px;
-    // border: 1px solid red;
     display:flex;
     flex-direction:row;
     justify-content: space-evenly;
     flex-wrap:wrap;
     width: 100%;
+    
     
 
     #twitter  {
@@ -51,11 +52,64 @@
    
 }
 @media only screen and (max-width: 400px) {
-    #media-buttons {  
-        justify-content: center;
-        height: 50px;
-        width: auto;
+    #my-info {  
+        h1, h2 {
+
+        
+        padding-right: 200px !important;
+        font-size: 5vw;
+        }
+        #buttons {
+            height: 50px;
+            width: 50px;
+            padding-right: 200px;
+            }
+       
         
     }
 }
+
+@media only screen and (max-width: 400px) {
+    #facebook {  
+        height: 50px;
+        width: 50px;
+        background-color: map-get($color, main-background) !important;
+        border-radius: 0px;
+        
+    }
+}
+@media only screen and (max-width: 400px) {
+    #git {  
+        height: 50px;
+        width: 50px;
+        background-color: map-get($color, main-background) !important;
+        border-radius: 0px;
+        
+    }
+}
+    @media only screen and (max-width: 400px) {
+        #linkedin {  
+            height: 50px;
+            width: 50px;
+            background-color: map-get($color, main-background) !important;
+            border-radius: 0px;
+            
+        }
+    }
+        @media only screen and (max-width: 400px) {
+            #twitter {  
+                height: 50px;
+                width: 50px;
+                background-color: map-get($color, main-background) !important;
+                border-radius: 0px;
+                
+            }
  
+        }
+        @media only screen and (max-width: 400px) {
+            #my-info {  
+                font-size: 4.5vw;    
+                padding-right: 150px;    
+            }
+        }
+

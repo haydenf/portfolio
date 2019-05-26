@@ -1,5 +1,4 @@
 #frontpage{
-    // margin:150px;
     min-height: 100vh;
     background-image: url(/Images/beautiful-cold-dawn-547115.jpg) ;
     background-size: cover;
@@ -8,9 +7,6 @@
     min-width: 100%;
     height: auto;
 
-    // position:relative;
-    // background-attachment: fixed;
-    // opacity: 0.5;
 }
     #titletext{ 
         
@@ -24,10 +20,7 @@
         color: #3E3D53;
         font-size: 2vw;
         vertical-align: middle;
-        // position: fixed;
-        // top: 100px;
-        // left:200px;
-
+    
     
     }
    
@@ -38,14 +31,12 @@ header {
     min-height: 30px;
     position: fixed;
     width: 100%;
-    // z-index: 10;
     opacity: 0.5;
 
 }
 
 #social-media-buttons {
     padding-top:30px;
-    // border: 1px solid red;
     display:flex;
     flex-direction:row;
     justify-content: center;
